@@ -1,0 +1,43 @@
+{
+  "name": "linseed",
+  "version": "0.0.4",
+  "description": "RequireJS plugin for seeding DOM elements",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.corp.adobe.com/aceui/linseed.git"
+  },
+  "keywords": [
+    "Javascript",
+    "CanJS",
+    "Handlebars"
+  ],
+  "author": "btapley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://git.corp.adobe.com/aceui/linseed/issues"
+  },
+  "homepage": "https://git.corp.adobe.com/aceui/linseed",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.7.2",
+    "load-grunt-tasks": "~0.2.1",
+    "bower": "~1.2.8",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "assemble": "~0.4.33",
+    "grunt-bower-requirejs": "~0.8.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-less": "~0.8.3",
+    "grunt-autoprefixer": "~0.6.3",
+    "grunt-lesslint": "~0.15.0",
+    "grunt-release": "~0.6.0",
+    "grunt-gh-pages": "~0.8.1"
+  }
+}

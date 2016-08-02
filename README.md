@@ -1,2 +1,4 @@
-# linseed
-RequireJS load plugin for seeding functionality into DOM elements.
+linseed
+=======
+
+RequireJS plugin for seeding dom elements.

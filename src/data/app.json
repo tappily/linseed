@@ -1,0 +1,6 @@
+{
+    "name": "Linseed",
+    "description": "RequireJS plugin for seeding DOM elements",
+    "scripts": ["linseed.js"],
+    "styles": ["linseed.css"]
+}
