@@ -1,0 +1,60 @@
+@import "var";
+@body-margin: 2em;
+@body-width: 32em;
+
+html {
+  background-color: white;
+  color: black;
+}
+
+body {
+  padding: 1em @body-margin;
+  font-family: Verdana, sans-serif;
+  width: @body-width;
+  margin: 0 auto;
+  display: block;
+}
+
+header {
+  font: 5rem/1.35 @brand-font;
+  position: relative;
+}
+
+@media screen and (max-width: unit(((@body-width + (@body-margin * 2)) * 16), px)) {
+  body {
+    width: auto;
+  }
+
+  header {
+    font-size: 2.5rem;
+  }
+
+}
+
+h1 {
+  margin: 0;
+}
+
+h1 em {
+  font-size: 1.5ex;
+}
+
+p {
+  margin: 2rem 0;
+}
+
+pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+code {
+  font: 1rem/1.5 "Courier New", monospace;
+}
+
+em {
+  color: green;
+  font-style: normal;
+  font-family: @brand-font;
+  font-size: 2.5em;
+}

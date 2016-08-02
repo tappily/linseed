@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{{#if title}}{{title}}{{else}}{{app/name}}{{/if}}</title>
+    <meta name="description" content="{{#if description}}{{description}}{{else}}{{app/description}}{{/if}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{css app/styles}}
+</head>
+<body data-seed-typekit data-tk-id="tng8mkd" data-tk-loading="data:text/css,body{visibility:hidden}">
+{{> header }}
+{{> body }}
+{{js app/scripts}}
+</body>
+</html>
