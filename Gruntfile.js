@@ -165,9 +165,11 @@ module.exports = function (grunt) {
         }
     });
 
-    grunt.registerTask('test', ['jshint']);
+    grunt.registerTask('default', ['build']);
 
     grunt.registerTask('build', ['clean', 'test', 'copy:js']);
+
+    grunt.registerTask('test', ['jshint']);
 
     grunt.registerTask('site', ['build', 'lesslint', 'less', 'autoprefixer', 'requirejs', 'assemble', 'copy:img']);
 
