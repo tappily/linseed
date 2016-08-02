@@ -1,6 +1,6 @@
 {
   "name": "linseed",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "RequireJS plugin for seeding DOM elements",
   "main": "Gruntfile.js",
   "scripts": {
